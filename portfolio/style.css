@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide&family=Josefin+Sans:100:wght@100&family=Rambla&display=swap");
+
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  color: #293666 !important ;
+  background-color: #f7faff !important;
+  font-family: "Rambla", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-shadow: -1px -1px 1px #293666;
+}
+li {
+  list-style-type: none;
+}
+/* *******************HEADER****************** */
+header {
+  text-align: center;
+  height: 100vh;
+  background: url(media/header.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+}
+.navbar {
+  height: 42px;
+  opacity: 0.9;
+  background-color: #fafafa;
+  transition: 0.7s;
+}
+
+.navbar-nav {
+  width: 80% !important;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+h1 {
+  padding: 90px 0 10px 0;
+  font-family: "josefin Sans", sans-serif;
+  font-size: 4.3em;
+  text-transform: uppercase;
+}
+h2 {
+  padding: 20px 0 50px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#ligne {
+  width: 25%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #b3aca7;
+}
+.presentation {
+  margin-top: 20px;
+  height: 240px;
+}
+.infos {
+  border: 1px solid #b3aca7;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.photo {
+  border: 1px solid #b3aca7;
+  position: relative;
+}
+.photo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  border-radius: 3px;
+  box-shadow: 0 0 4px #222;
+}
+header .button {
+  margin-top: 20px;
+}
+header .button a {
+  border: 1px solid #b3aca7;
+  padding: 10px 80px;
+  text-decoration: none;
+  width: 30%;
+  background-color: thistle;
+  transition: 0.3s ease-in-out;
+}
+.typed {
+  font-size: 0.9em;
+}
+
+header .button a:hover {
+  text-decoration: underline;
+  background-color: turquoise;
+  color: white;
+  border: 2px solid orange;
+}
+
+/* ********************************langages et frameworks********* */
+#langages {
+  padding: 80px 80px 80px 50px;
+  margin: 20px 0px 0px 6%;
+  height: 620px;
+  width: 47%;
+  max-width: 640px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(239, 87, 87, 0.74) 0%,
+    rgba(245, 123, 13, 0.74) 90.2%
+  );
+  clip-path: polygon(0 7%, 100% 0, 100% 99%, 0 93%);
+}
+
+section .bar {
+  padding: 3px 0;
+}
+/* **************************FORMATION************************ */
+#formation {
+  padding-top: 40px;
+  margin: 20px 6% 0 0;
+  width: 47%;
+  float: right;
+
+  height: 640px;
+
+  background-image: linear-gradient(
+    111.5deg,
+    rgba(163, 197, 230, 1) 1.4%,
+    rgba(148, 150, 213, 1) 39.3%,
+    rgba(159, 139, 208, 1) 68.4%,
+    rgba(159, 121, 198, 1) 89.7%,
+    rgba(157, 101, 203, 1) 99.9%
+  );
+  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 93%);
+}
+#opc {
+  padding: 10px 0px 10px 9%;
+}
+#udemy {
+  padding: 10px 0px 10px 18%;
+}
+
+.counter {
+  padding-left: 100px;
+  display: flex;
+  text-align: center;
+}
+.data {
+  padding: 10px;
+  border: 1px solid #3584d5;
+  margin: 0 4%;
+  width: 170px;
+  box-shadow: 0 0 9px #1c9dc4;
+}
+.counter-value {
+  font-size: 1.5em;
+}
+.data span {
+  font-size: 1.3em;
+}
+#formation h3 {
+  padding-top: 40px;
+  text-align: center;
+}
+#formation h4 {
+  font-weight: bold;
+  letter-spacing: 0.08;
+  padding: 10px;
+  margin: 0;
+  color: #005978;
+  text-shadow: -1px -1px 1px #3584d5;
+}
+
+/* ******************PARCOURS*************** */
+#parcours {
+  max-width: 800px;
+  margin: 700px auto;
+  margin-bottom: 30px;
+  width: 50%;
+  padding: 40px 30px 100px 30px;
+  background: url(media/parcours.jpg) no-repeat 50%50% fixed;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: -2x -2px 8px #383566;
+}
+
+#parcours h3 {
+  font-size: 2.4em;
+  padding-bottom: 25px;
+}
+#parcours h4 {
+  color: #ff6231;
+  margin-left: 20px;
+  font-size: 1.4em;
+}
+#parcours h6 {
+  color: #0ff1f3;
+  margin-left: 20px;
+  font-size: 1.1em;
+}
+
+#parcours p {
+  line-height: 1.8em;
+}
+
+.timeline {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #f9d423, #ff4250);
+  border-image-slice: 1;
+  padding: 30px;
+  margin: 0;
+  position: relative;
+}
+
+.timeline:nth-child(odd) {
+  border-right: 3px solid;
+}
+.timeline:nth-child(even) {
+  border-left: 3px solid;
+}
